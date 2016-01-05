@@ -31,6 +31,7 @@ public class BookDBAO {
     // Retrieve book details based on bookId, null is returned if book is not found
     public BookDetails getBookDetails(String bookId) {
         String sql = "select * from books where id = ?";
+        String sql1 = "select * from books where id = '" + bookId + "'";
         BookDetails book = null;
         try {
             getConnection();

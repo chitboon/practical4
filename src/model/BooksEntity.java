@@ -17,7 +17,6 @@ public class BooksEntity {
     private Integer calendarYear;
     private String description;
     private Integer inventory;
-
     @Id
     @Column(name = "id", nullable = false, insertable = true, updatable = true, length = 8)
     public String getId() {

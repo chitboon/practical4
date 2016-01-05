@@ -21,12 +21,12 @@
             for (BooksEntity book : books) {
         %>
         <tr>
-            <td bgcolor="#ffffaa"><a href="/bookdetails?bookId=<%= book.getId() %>"> <strong><%= book.getTitle()%></strong></a></td>
+            <td bgcolor="#ffffaa"><a href="./bookdetails?bookId=<%= book.getId() %>"> <strong><%= book.getTitle()%></strong></a></td>
             <td bgcolor="#ffffaa" rowspan=2><%= book.getPrice() %></td>
-            <td bgcolor="#ffffaa" rowspan=2><a href="/bookcatalog?bookId=<%= book.getId() %>"> Add to Cart </a></td>
+            <td bgcolor="#ffffaa" rowspan=2><a href="./bookcatalog?bookId=<%= book.getId() %>"> Add to Cart </a></td>
         </tr>
         <tr>
-            <td>by<em><%= book.getFirstName() %></em></td>
+            <td>by<em><%= book.getSurname() %></em></td>
         </tr>
         <%
             }

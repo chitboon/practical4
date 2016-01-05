@@ -16,9 +16,9 @@
     <hr>
 </center>
 <br> <b>What we are reading</b>
-<blockquote><em><a href="bookdetails?bookId=<%= book.getId() %>"><%= book.getTitle() %></a></em> <%= book.getDescription() %>
+<blockquote><em><a href="./bookdetails?bookId=<%= book.getId() %>"><%= book.getTitle() %></a></em> <%= book.getDescription() %>
 </blockquote>
-<p><a href="bookcatalog"><b>Start Shopping</b></a></p>
+<p><a href="./bookcatalog"><b>Start Shopping</b></a></p>
 </body>
 </html>
 

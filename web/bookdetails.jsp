@@ -18,6 +18,6 @@
 <blockquote><%= book.getDescription() %></blockquote>
 <h4>Our Price: <%= book.getPrice() %></h4>
 
-<p><strong><a href="/bookcatalog?bookId=<%= book.getId() %>">Add to Cart</a> <a href="/bookcatalog">Continue Shopping</a></strong></p>
+<p><strong><a href="./bookcatalog?bookId=<%= book.getId() %>">Add to Cart</a> <a href="./bookcatalog">Continue Shopping</a></strong></p>
 </body>
 </html>
